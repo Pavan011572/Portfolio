@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 
 const stats = [
-  { value: '9.14', label: 'CGPA', suffix: '/10', icon: '🎓' },
+  { value: '9.17', label: 'CGPA', suffix: '/10', icon: '🎓' },
   { value: '3', label: 'Projects Built', suffix: '+', icon: '🚀' },
   { value: '8K', label: 'Images Trained On', suffix: '+', icon: '📊' },
   { value: '91', label: 'mAP Achieved', suffix: '%', icon: '🎯' },
@@ -24,8 +24,8 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="space-y-5 text-gray-500 leading-relaxed">
             <p className="text-base">
-              I'm <span className="text-white font-semibold">Pavan</span>, a 3rd year B.Tech student in AI & Data Science at{' '}
-              <span className="text-cyan-400">SRKR Engineering College, Bhimavaram</span>, with a CGPA of <span className="text-white font-semibold">9.14/10</span>.
+              I'm <span className="text-white font-semibold">Pavan</span>, a 4th year B.Tech student in AI & Data Science at{' '}
+              <span className="text-cyan-400">SRKR Engineering College, Bhimavaram</span>, with a CGPA of <span className="text-white font-semibold">9.17/10</span>.
             </p>
             <p>I specialize in <span className="text-gray-300">Computer Vision</span> and <span className="text-gray-300">Deep Learning</span> — building production-grade AI models and end-to-end ML pipelines from data preprocessing all the way to REST API deployment.</p>
             <p>I've worked on a <span className="text-cyan-400">Government-Sponsored</span> shrimp detection project, a deepfake detection system, and a full-stack AI-powered task management platform.</p>

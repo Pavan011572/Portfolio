@@ -125,7 +125,7 @@ export default function Hero() {
           className="flex gap-8 text-left"
         >
           {[
-            { val: '9.14', label: 'CGPA' },
+            { val: '9.17', label: 'CGPA' },
             { val: '91%', label: 'mAP Score' },
             { val: '8K+', label: 'Images Trained' },
             { val: '3+', label: 'Projects' },

@@ -75,12 +75,12 @@ export default function Education() {
               <div className="mt-4 mb-6">
                 <div className="flex justify-between mb-2">
                   <span className="text-gray-400 text-sm font-medium">Current CGPA</span>
-                  <span className="text-white font-bold text-sm">9.14 / 10</span>
+                  <span className="text-white font-bold text-sm">9.17 / 10</span>
                 </div>
                 <div className="w-full bg-gray-700/50 rounded-full h-3 overflow-hidden">
                   <motion.div
                     initial={{ width: 0 }}
-                    whileInView={{ width: '91.4%' }}
+                    whileInView={{ width: '91.7%' }}
                     viewport={{ once: true }}
                     transition={{ duration: 1, delay: 0.3 }}
                     className="bg-gradient-to-r from-cyan-400 to-cyan-500 h-3 rounded-full relative"
