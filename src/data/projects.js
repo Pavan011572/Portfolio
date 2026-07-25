@@ -5,18 +5,18 @@ export const projects = [
       "Government-sponsored project. Trained YOLOv8 on 8,000+ labeled images achieving 91% mAP at 24 FPS for real-time shrimp counting in aquaculture pond images.",
     techStack: ["Python", "YOLOv8", "OpenCV", "TensorFlow", "Pandas", "NumPy"],
     highlights: ["91% mAP", "24 FPS", "8,000+ images"],
-    liveDemo: "https://huggingface.co/spaces/BalajiPerni3535/Shrimp-detector",   // replace with your actual live demo link
-    github: "https://github.com/Pavan011572/Shrimp",     // replace with your GitHub repo link
+    liveDemo: "https://huggingface.co/spaces/pavan011572/Shrimp",
+    github: "https://github.com/Pavan011572/Shrimp",
     tag: "Government Sponsored",
   },
   {
-    title: "Deepfake / AI-Generated Image Detection",
+    title: "Gastrointestinal Disease Classification",
     description:
-      "Binary image classification model using PyTorch and ResNet50 transfer learning to distinguish real photographs from AI-generated synthetic images.",
-    techStack: ["Python", "PyTorch", "ResNet50", "OpenCV", "NumPy", "Scikit-learn"],
-    highlights: ["Transfer Learning", "Fine-Tuning", "Production-ready"],
-    liveDemo: null,
-    github: "https://github.com/Pavan011572/Agent-AI",     // replace with your GitHub repo link
+      "Streamlit web application utilizing PyTorch and a fine-tuned ResNet50 model to classify endoscopic images of the gastrointestinal tract.",
+    techStack: ["Python", "PyTorch", "ResNet50", "Streamlit", "OpenCV", "NumPy"],
+    highlights: ["Transfer Learning", "ResNet50", "Medical AI"],
+    liveDemo: "https://gastro-exrvwwpugrvqmtx5aqjsx3.streamlit.app/",
+    github: "https://github.com/Pavan011572/gastro",
     tag: "Deep Learning",
   },
   {
@@ -26,7 +26,7 @@ export const projects = [
     techStack: ["Python", "Node.js", "Express", "PostgreSQL", "FastAPI", "Docker", "JWT"],
     highlights: ["JWT Auth", "Role-based Access", "ML Microservice"],
     liveDemo: null,
-    github: "https://github.com/Pavan011572/Task-Manager",     // replace with your GitHub repo link
+    github: "https://github.com/Pavan011572/Task-Manager",
     tag: "Full Stack",
   },
 ]
