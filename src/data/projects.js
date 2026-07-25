@@ -10,7 +10,7 @@ export const projects = [
     tag: "Government Sponsored",
   },
   {
-    title: "Gastrointestinal Disease Classification",
+    title: "GastroIntestinal Disease Classification",
     description:
       "Streamlit web application utilizing PyTorch and a fine-tuned ResNet50 model to classify endoscopic images of the gastrointestinal tract.",
     techStack: ["Python", "PyTorch", "ResNet50", "Streamlit", "OpenCV", "NumPy"],
@@ -20,13 +20,13 @@ export const projects = [
     tag: "Deep Learning",
   },
   {
-    title: "AI-Powered Task Management Platform",
+    title: "SplitEase – Expense Tracker & Splitter",
     description:
-      "Full-stack REST API with Node.js/Express and PostgreSQL. Integrated FastAPI ML microservice using sentence-transformer embeddings with intent classifier to auto-generate intelligent subtasks.",
-    techStack: ["Python", "Node.js", "Express", "PostgreSQL", "FastAPI", "Docker", "JWT"],
-    highlights: ["JWT Auth", "Role-based Access", "ML Microservice"],
-    liveDemo: null,
-    github: "https://github.com/Pavan011572/Task-Manager",
+      "Full-stack expense splitting web application with real-time room management via 6-character invite codes, UPI payment verification with UTR tracking, balance settlement, and JWT authentication.",
+    techStack: ["React", "Node.js", "Express", "Vite", "JWT", "REST API"],
+    highlights: ["UPI Verification", "Room Management", "Balance Settlement"],
+    liveDemo: "https://splitease-expense-tracker.vercel.app/",
+    github: "https://github.com/Pavan011572/Splitease-expense-tracker",
     tag: "Full Stack",
   },
 ]

@@ -28,7 +28,7 @@ export default function About() {
               <span className="text-cyan-400">SRKR Engineering College, Bhimavaram</span>, with a CGPA of <span className="text-white font-semibold">9.17/10</span>.
             </p>
             <p>I specialize in <span className="text-gray-300">Computer Vision</span> and <span className="text-gray-300">Deep Learning</span> — building production-grade AI models and end-to-end ML pipelines from data preprocessing all the way to REST API deployment.</p>
-            <p>I've worked on a <span className="text-cyan-400">Government-Sponsored</span> shrimp detection project, a gastrointestinal disease classification system, and a full-stack AI-powered task management platform.</p>
+            <p>I've worked on a <span className="text-cyan-400">Government-Sponsored</span> shrimp detection project, a gastrointestinal disease classification system, and a full-stack expense splitting platform (SplitEase).</p>
             <p>Outside of AI, I actively practice <span className="text-gray-300">competitive programming</span> and am preparing for campus placements focusing on DSA and system design.</p>
           </motion.div>
 
