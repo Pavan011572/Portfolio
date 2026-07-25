@@ -75,6 +75,18 @@ export default function ProjectCard({ project, index }) {
               <FiArrowRight size={12} className="opacity-0 -translate-x-2 group-hover/link:opacity-100 group-hover/link:translate-x-0 transition-all" />
             </a>
           )}
+          {project.liveDemo && project.liveDemo !== '#' && (
+            <a
+              href={project.liveDemo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 font-medium text-sm transition-all duration-200 group/link"
+            >
+              <FiExternalLink size={16} className="group-hover/link:scale-110 transition-transform" />
+              <span>Live Demo</span>
+              <FiArrowRight size={12} className="opacity-0 -translate-x-2 group-hover/link:opacity-100 group-hover/link:translate-x-0 transition-all" />
+            </a>
+          )}
         </div>
       </div>
     </motion.div>
